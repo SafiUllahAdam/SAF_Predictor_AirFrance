@@ -103,9 +103,14 @@ def recommend_saf_offer(loyalty_tier, booking_class, past_saf_purchase, adds_pai
         except Exception as e:
             return f"Error during SHAP explanation: {e}"
 
-        # Simple Offer Logic 
+        # Simple Offer Logic (dynamic SAF pricing)
         saf_pct = 25 if loyalty_tier == "Platinum" else (15 if booking_class == "Business" else 10)
-        price_suggestion = "€20–€50" if saf_pct >= 15 else "€10–€25"
+
+        # Calculate SAF contribution dynamically — % of ticket price
+        ticket_price = float(ticket_price_eur)
+        price_value = round(ticket_price * (saf_pct / 100), 2)
+        price_suggestion = f"€{price_value}"
+
 
         return (f"High probability of contribution.\n"
                 f"Recommended offer: SAF {saf_pct}% at {price_suggestion}.\n"
