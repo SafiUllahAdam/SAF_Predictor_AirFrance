@@ -1,0 +1,3 @@
+Loyalty Tier,Booking Class,"Past SAF Purchase (0=No, 1=Yes)","Adds Paid Options (0=No, 1=Yes)",Number of Passengers,Destination Region,Flight Distance (km),Ticket Price (€),Prediction,timestamp
+Platinum,Premium,1,1,2,EU,1200,500,,2025-10-19 02:54:56.787904
+Gold,Economy,0,1,2,Domestic,1200,250,,2025-10-19 02:56:31.250583
