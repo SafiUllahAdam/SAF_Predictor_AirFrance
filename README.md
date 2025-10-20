@@ -2,7 +2,7 @@
 
 > **Air France — SAF Contribution Predictor**  
 > This project demonstrates how explainable AI can support **sustainable aviation** initiatives by predicting and optimizing **passenger likelihood to contribute to SAF**.  
-> Built with **LightGBM**, **SHAP**, and **Gradio**, it highlights **data-driven sustainability strategy** and **customer insight modeling** in the aviation sector.  
+> Built with **LightGBM**, **SHAP**, and **Gradio**, it highlights **data-driven sustainability strategy** and **customer insight modeling** in the aviation sector.
 >  
 > 🟢 Live Demo: [Hugging Face Space](https://huggingface.co/spaces/SafiUllahAdam/SAF_Predictor_AirFrance)  
 > 📊 GitHub Repo: [SafiUllahAdam/SAF_Predictor_AirFrance](https://github.com/SafiUllahAdam/SAF_Predictor_AirFrance)
