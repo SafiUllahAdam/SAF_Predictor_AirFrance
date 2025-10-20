@@ -166,6 +166,6 @@ It shows expertise in AI modeling, XAI, and business application design, precise
 
 **Author: Muhammad Safi Ullah Adam**
 
-**Contact: adam.muhammad01210@gmail.com**
+**Contact: muhammad-safi-ullah.adam@etu.univ-lyon1.fr**
 
  **LinkedIn Profile | https://www.linkedin.com/in/safi-ullah-adam/**
