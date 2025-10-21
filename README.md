@@ -31,7 +31,7 @@ Predict SAF Contribution	Estimate whether a customer will choose a SAF contribut
 Recommend SAF Offer	Suggest an optimized SAF percentage (10–25 %) and price range (€10–€50) for high-probability customers.
 Explain Model Decisions (SHAP)	Provide transparent, feature-level insights on what drives each prediction.
 
-**🧩 Model & Data Flow**
+**🧩 Model & Data Flow** 
 
 **Data Preparation:** Synthetic passenger data simulating Air France booking & SAF purchase patterns.
 
